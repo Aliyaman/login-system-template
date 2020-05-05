@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Login System</title>
+</head>
+<body>
+    <div class="login">
+        <img src="./avatar.png" alt="" width="75px" height="75px">
+        <p>Welcome</p>
+        <i class="fa fa-envelope icon" id="mail"></i>
+        <input type="email" class="mail">
+        <div class="key">
+        <i class="fa fa-key icon" id="key"></i>
+        <button class="login-button">Login</button>
+        <img src="access_account.svg" alt="" width="400px" height="400px" class="access">
+    <input type="password" id="myInput">
+    <input type="checkbox" onclick="myFunction()" class="show"><h4>Show Password</h4>
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+    </div>
+</body>
+</html>
